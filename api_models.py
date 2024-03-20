@@ -18,8 +18,6 @@ cidade_input_model = api.model("CidadeInput", {
        "nome_cidade":fields.String
 })
 
-
-
 municipio_input_model = api.model("MunicipioInput", {
       "nome_municipio":fields.String,
       "cidade_id":fields.Integer 
